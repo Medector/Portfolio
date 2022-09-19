@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js --no-open",
     "dev:open": "webpack serve --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js && echo '/* /index.html 200' >> dist/_redirects"
   },
   "keywords": [],
   "author": "",
