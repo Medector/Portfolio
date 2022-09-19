@@ -1,0 +1,50 @@
+.ModalBackground {
+    background: rgba(32, 35, 41, .8);
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: 10px;
+    bottom: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.ModalContainer{
+    position: relative;
+    margin-top: 10px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    width: 70%;
+    height: 80%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size:3rem;
+
+    button{
+        justify-self: center;
+        width: 120px;
+        height: 70px;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 1.5rem;
+        margin-bottom: 55px;
+        background-color:rgba(33, 154, 235, 0.864);
+        border: none;
+        &:hover {
+            background-color: rgb(242, 146, 139);
+            transition: .51s ease-in-out;
+        }
+
+    }
+}
+.ModalContainer-text{
+    line-height: 30px;
+   margin: 35px;
+    margin-top: 80px;
+text-justify:distribute;
+text-align: center;
+}
