@@ -29,7 +29,7 @@ function Layout() {
         <Outlet />
       </main>
       <footer>
-        <span>Medector</span>
+        <span>Hetor Medina Romo ® </span>
       </footer>
     </div>
   );
