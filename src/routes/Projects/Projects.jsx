@@ -28,6 +28,7 @@ function Projects() {
       <section className="project-libary">
         <ul className="project-libary-list">
           <li>
+            <h3>Camp Page</h3>
             <a href="https://medector.github.io/Camp/">
               <img
                 className="projectImg"
@@ -45,6 +46,7 @@ function Projects() {
           </li>
 
           <li>
+            <h3>ToDo List Webapp</h3>
             <a href="https://medector.github.io/todo-list/">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/portfolio-f1706.appspot.com/o/TodoListScreenShot.png?alt=media&token=c94301a8-8c91-4d6f-88f9-77d06ed8a3d5"
@@ -61,6 +63,7 @@ function Projects() {
           </li>
 
           <li>
+            <h3>Guess the Word</h3>
             <ReactPlayer
               className="projectVideo"
               controls
@@ -76,6 +79,7 @@ function Projects() {
           </li>
 
           <li>
+            <h3>Turn Caller App</h3>
             <ReactPlayer
               className="projectVideo"
               id="turncallervideo"
@@ -92,6 +96,7 @@ function Projects() {
           </li>
 
           <li>
+            <h3>Is Palindrome?</h3>
             <ReactPlayer
               className="projectVideo"
               controls

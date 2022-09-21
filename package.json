@@ -6,12 +6,15 @@
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js --no-open",
     "dev:open": "webpack serve --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js && echo '/* /index.html 200' >> dist/_redirects"
+    "build": "webpack --config webpack.prod.js && echo '/* /index.html 200' > dist/_redirects"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.6",
     "dotenv-webpack": "^7.1.0",
     "framer-motion": "^7.3.5",
     "mini-css-extract-plugin": "^2.6.0",
