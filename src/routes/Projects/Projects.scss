@@ -73,15 +73,16 @@ ul{
  @media (max-width: 500px){
             .textProjects{
                 font-size: 1rem;
-                max-width: 300px;
+                // max-width: 300px;
             }
             .project-libary{
-                display: grid;
+                display: flex;
+                align-items: center;
             ul{
                 display:flex;
                 justify-content: space-around;
                 flex-wrap: wrap;
-                width: 300px ;
+                width: 100% ;
                 justify-content: center;
                 align-items: center;
             }

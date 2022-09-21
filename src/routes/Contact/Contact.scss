@@ -36,3 +36,45 @@ li{
             width: 180px;
             height: 180px;
         }}
+        @media (max-width: 500px){
+            .contactInfo{ 
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                h1{
+                    font-size: 5rem;
+                    margin-top: 40px
+                }
+                span{
+                    text-align: center;
+                    font-size: 3rem;
+                }
+                ul {font-size: 2rem;
+                    list-style: none;
+                   
+            li{
+                text-align: center;
+                padding: 20px;
+                border-radius: 10px;
+                background-color: rgba(87,93,255,1);
+                margin: 20px;
+            }}
+            
+            }
+            
+            
+            .socialmediacontainer{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 10px;
+                 
+              
+                    img{
+                        background-color: rgba(255, 255, 242);   
+                        padding: 15px;
+                        border-radius: 15px ;
+                        width: 100px;
+                        height: 100px;
+                    }}
+        }
